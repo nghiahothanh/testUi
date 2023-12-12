@@ -1,0 +1,88 @@
+html{
+    font-size: 62.5%;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+:root{
+    --dimension:15rem
+}
+.indexPage{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    align-items: center;
+   
+   margin-top: 3%;
+}
+.shape{
+    position: relative;
+   display: flex;
+   margin-bottom: var(--dimension);
+   position: relative;
+   flex: 1;
+}
+.shape--aqua{
+    width: var(--dimension);
+    height: var(--dimension) ;
+    background-color: aqua;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+.shape--yellow{
+    width: var(--dimension);
+    height: var(--dimension);
+    background-color: yellow;
+    transform: translate(-30%,50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    text-align: center;
+    
+}
+.circle{
+    width: var(--dimension);
+    height: var(--dimension);
+    background-color: red;
+    border-radius: 50%;
+   transform: translate(-60%);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 2rem;
+   text-align: center;
+}
+.form{
+    padding-top: 5rem;
+   width: 50rem;
+   height: 16rem;
+   background-color: rgb(85, 240, 240);
+   border-radius: 2rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  
+}
+input{
+   width: 40rem;
+   text-align: center;
+   height: 2rem;
+   margin-bottom: 1rem;
+   border-radius:2rem;
+   font-weight: bold;
+   
+}
+input[type="submit"]{
+    width: 41rem;
+    height: 3rem;
+    background-color: green;
+}
+a{
+    text-decoration: none;
+}

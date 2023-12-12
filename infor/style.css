@@ -1,0 +1,29 @@
+.modal{
+    width: 40rem;
+    height: 100vh;
+    background-color: rgb(244, 22, 22);
+   
+    
+    border-radius: 20px;
+   margin: 0 auto;
+
+}
+.header{
+  
+  margin-top: 20px;
+  margin-right: 20px;
+  display: flex;
+    justify-content: flex-end;
+}
+.modal__body{
+    color: #fff;
+    padding: 3rem;
+    text-overflow: ellipsis;
+}
+footer{
+    font-weight: bold;
+    font-size: 5rem;
+    color: #fff;
+    text-align: center;
+    padding-top: 4rem;
+}
